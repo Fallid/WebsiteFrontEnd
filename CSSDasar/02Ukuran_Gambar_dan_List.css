@@ -1,0 +1,21 @@
+/*Mempelajari bagaimana mengatur ukuran gambar*/
+img{
+    /*Mengatur ukuran lebar dari gambar*/
+    width: 500px;
+    /*Mengatur ukuran tinggi dari gambar*/
+    height: 300px;
+}
+
+/*Mengkustom secara terpilih atau selected list*/
+/*Cara yang digunakan adalah membuat class lalu class ini dimasukan ke element list yang ingin dikustom secara terpisah, 
+  sebelum nama class pastikan untuk memuat dot (.) baru nama class*/
+.element1{
+    color: #EEBBC3;
+}
+.element2{
+    color: brown;
+}
+.element3{
+    color: aqua;
+}
+/*tidak hanya element pada list yang dipilih, ini juga berlaku kepada element lain selama element tersebut bisa disisipkan class*/

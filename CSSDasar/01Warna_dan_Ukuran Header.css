@@ -1,0 +1,29 @@
+/*Kostumisasi Warna pada Header seperti syntax dibawah ini*/
+h1{
+    /*Warna dari Header bisa menggunakan kode hexa colors atau library warna yang telah disediakan*/
+    /*Code hexa yang sama bisa disingkat contoh #dddddd menjadi #ddd*/
+    color: #EEBBC3;
+    
+    /*font size dari header ini juga dapat diubah menggunakan syntax dibawah ini, disarankan menggunakan ukuran px (pixel)*/
+    font-size: 24px;
+
+    /*jenis font juga bisa diatur seperti arial, calibri, dll*/
+    font-family: monospace;
+
+    /*Background colors bisa diubah juga menggunakan syntax*/
+    background-color: aliceblue;
+}
+
+/*selain Header, css bisa melakukan style ke element element lain contohnya paragraf, dll*/
+
+p{
+    color: brown;
+    font-size: medium;
+    background-color: aliceblue;
+}
+
+/*untuk element list teradapat dua cara yaitu secara keseluruhan dan terpisah syntax dibawah ini 
+  merupakan implementasi dari keseluruhan. Maksud dari keseluruhan adalah setiap element element list akan memiliki style yang sama*/
+li{
+    color: #EEBBC3;
+}
