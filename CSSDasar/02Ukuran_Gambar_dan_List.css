@@ -5,7 +5,10 @@ img{
     /*Mengatur ukuran tinggi dari gambar*/
     height: 300px;
 }
-
+.img1{
+    width: 500px;
+    height: 200px;
+}
 /*Mengkustom secara terpilih atau selected list*/
 /*Cara yang digunakan adalah membuat class lalu class ini dimasukan ke element list yang ingin dikustom secara terpisah, 
   sebelum nama class pastikan untuk memuat dot (.) baru nama class*/

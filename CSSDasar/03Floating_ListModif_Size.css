@@ -1,0 +1,63 @@
+/*Mempelajari Float, List Modify, Size, dan Padding.
+Size berfungsi untuk mengubah ukuran dari berbagai macam element salah satunya font-size dan height
+Padding berfungsi untuk mengatur jarak antar element didalam sebuah container / wadah*/
+
+li{
+/*life style berfungsi untuk menghilangkan bullet atau titik pada list item*/
+    list-style: none;
+    color: #fff;
+}
+
+.Header{
+    background-color: #26d0c9;
+    height: 90px; /*Ini adalah ukuran dari container / wadah*/
+}
+
+.Header-logo{
+    color: #fff;
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px 20px 40px;
+}
+
+/*list class dibawah ini adalah class khusus dimana style list dapat dibedakan dengan membuat class lalu ditambahkan li setelah nama class*/
+.Header-list li{
+
+    /*Float berfungsi untuk mengubah letak element yang awalnya vertikal menjadi horizontal*/
+    float: left;
+    /*Padding memiliki berbagai macam penulisan ada yang shorthand ada juga yang memanggil fungction masing masing
+    contoh function masing-masing padding-top, padding-left, dll
+    contoh shorthand padding: (top px) (right px) (bottom px) (left px);*/
+    padding: 33px 20px 33px 20px;
+    
+}
+
+
+.Main{
+    background-color: #bdf7f1;
+    height: 600px;
+}
+
+/*Class ini adalah container yang menampung element element yang ada didalamnya*/
+.Footer{
+    padding: 40px;
+    background-color: #2f5167;
+    height: 120px;
+}
+
+/*Class ini berfungsi untuk mengatur logo (Progate) pada footer*/
+.Footer-logo{
+    color: #fff;
+    float: left;
+    font-size: 36px;
+
+}
+
+/*Class ini berfungsi untuk mengubah letak list secara keseluruhan*/
+.Footer-list{
+    float: right;
+}
+/*Class ini berfungsi untuk mengubah jarak antar item yang ada di list*/
+.Footer-list li{
+    padding-bottom: 20px;
+}
