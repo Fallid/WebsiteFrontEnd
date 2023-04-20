@@ -1,0 +1,76 @@
+/* Styling tag <body> */
+body{
+    /* Menghilangkan gap antara sisi tepi website dengan element didalamnya */
+    margin: 0;
+    /* Mengubah keseluruhan text yang ada didalam tag body */
+    font-family: "Lucida Grande";
+}
+
+/* Styling tag <a> atau button */
+a{
+    /* Menghilangkan garis bawah pada text button */
+    text-decoration: none;
+}
+
+.top-wrapper{
+    /* Menyesuaikan ukuran gambar disini menggunakan cover, fungsi cover untuk menutupi atau menyesuaikan gambar dengan keseluruhan lebar */
+    background-size: cover;
+    padding: 180px 0px 100px 0px;
+    color: white;
+    /* Memasukkan gambar sebagai background */
+    background-image: url("https://prog-8.com/images/html/advanced/top_en.png");
+}
+
+.top-wrapper h1{
+    /* Mengatur transparasi teks atau element bisa menggunakan opacity */
+    opacity: 0.7;
+    font-size: 45px;
+    /* letter-spacing berfungsi untuk memberi jarak antar huruf */
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p{
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.container{
+    width: 1170px;
+    padding: 0px 15px 0px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling class button-wrapper */
+.btn-wrapper{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-wrapper p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Styling class button */
+.btn{
+    padding: 12px 24px 12px 24px;
+    color: white;
+    /* inline-block berfungsu untuk mengatur ukuran dan letak padding margin dari button */
+    display: inline-block;
+    opacity: 0.8;
+}
+
+.signup{
+    background-color: #239b76;
+}
+
+.facebook{
+    margin-right: 10px;
+    background-color: #3b5998;
+}
+
+.twitter{
+    background-color: #55acee;
+}

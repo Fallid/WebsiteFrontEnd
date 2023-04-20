@@ -1,0 +1,8 @@
+source svg main content HTML Progate Dasar
+1. https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg
+2. https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg
+3. https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg
+4. https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg
+
+warna: 
+#dee7ec

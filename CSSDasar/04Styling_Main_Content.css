@@ -32,12 +32,68 @@ li{
         
     }
     
-    
+    /*Class main berfungsi sebagai container yang menampung element element content website*/
     .Main{
-        background-color: #bdf7f1;
-        height: 600px;
+        padding: 100px 80px;
+    }
+
+    .content{
+        height: 700px;
+    }
+
+    /*Styling border h3 pada class section-title */
+    .section-title{
+        font-size: 28px;
+        border-bottom: 2px solid #dee7ec;
+        padding-bottom: 20px;
+        /*Margin adalal function untuk mengatur letak antar element dengan diluar element*/
+        /*Penulisan margin sama seperti padding Margin: (top px) (right px) (bottom px) (left px);*/
+        margin-bottom: 50px;
+    }
+
+    /*Styling element <h1> pada class copy-container*/
+    .copy-container h1{
+        font-size: 140px;
+    }
+    /*Styling element <h2> pada class copy-container*/
+    .copy-container h2{
+        font-size: 60px;
+    }
+    /*Styling element <span> pada class copy-container*/
+    .copy-container span{
+        color: #ff4a4a;
     }
     
+    /*Styling content item */
+    .contents-item{
+        padding-right: 40px;
+        float: left;
+    }
+    .contents-item p{
+        font-size: 24x;
+        margin-top: 30px;
+    }
+
+    /*Styling contact-form*/
+    .contact-form{
+        padding-top: 100px;
+    }
+    /*Styling submit box*/
+    .contact-submit{
+        background-color: #dee7ec;
+        color: #889eab;
+    }
+    /*Styling dua element sekaligus dapat di lakukan menggunakan tanda koma (,)*/
+    input, textarea{
+        width: 400px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 20px;
+        font-size: 18px;
+        border: 1px solid #dee7ec;
+    }
+
+
     /*Class ini adalah container yang menampung element element yang ada didalamnya*/
     .Footer{
         padding: 40px;
@@ -50,7 +106,6 @@ li{
         color: #fff;
         float: left;
         font-size: 36px;
-    
     }
     
     /*Class ini berfungsi untuk mengubah letak list secara keseluruhan*/
