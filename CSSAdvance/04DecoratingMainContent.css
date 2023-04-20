@@ -1,0 +1,194 @@
+/* Styling tag <body> */
+body{
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+/* Styling tag <a> atau button */
+a{
+    text-decoration: none;
+}
+
+.top-wrapper{
+    /* text-align berfungsi untuk mengatur letak text yang sudah di atur oleh css ada 3 setting (center, left, right) */
+    text-align: center;
+    background-size: cover;
+    padding: 180px 0px 100px 0px;
+    color: white;
+    background-image: url("https://prog-8.com/images/html/advanced/top_en.png");
+}
+
+.top-wrapper h1{
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p{
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.container{
+    width: 1170px;
+    padding: 0px 15px 0px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling class button-wrapper */
+.btn-wrapper{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-wrapper p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Styling class button */
+.btn{
+    padding: 12px 24px 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+/* Membuat animasi hover atau ketika cursor di atas button */
+.btn:hover{
+    opacity: 1;
+}
+
+.signup{
+    background-color: #239b76;
+}
+
+.facebook{
+    margin-right: 10px;
+    background-color: #3b5998;
+}
+
+.twitter{
+    background-color: #55acee;
+}
+
+/* Styling icon font awesome */
+.fa{
+    margin-right: 5px;
+}
+
+/* Styling header */
+header{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+}
+
+/* Styling header-left */
+.header-left{
+    float: left;
+}
+
+/* Styling header-right */
+.header-right{
+    transition: all 1s;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-right a{
+    line-height: 65px;
+    padding: 0px 25px 0px 25px;
+    color: white;
+    display: block;
+}
+
+/* Styling header-right hover */
+.header-right:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Styling logo */
+.logo{
+    width: 124px;
+    margin-top: 20px;
+}
+
+/* Styling lesson-wrapper */
+.lesson-wrapper{
+    text-align: center;
+    height: 500px;
+    padding: 0px 0px 80px 0px;
+    background-color: #f7f7f7;
+}
+
+/* Styling lesson class */
+.lesson{
+    float: left;
+    width: 25%;
+}
+.lesson-icon{
+    /* position relative merupakan posisi yang dapat berubah ubah menyesuaikan element element lainnya, biasa digunakan sebagai induk atau parent element */
+    position: relative;
+}
+.lesson-icon p{
+    /* position absolute berfungsi untuk menetapkan posisi dari element tersebut dan untuk mengubah atau menggesernya menggunakan top,left,right,bottom */
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+}
+
+/* Styling text content */
+.txt-contents{
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+/* Styling heading */
+.heading{
+    padding: 60px 0px 30px 0px;
+    color: #5f5d60;
+}
+.heading h2{
+    font-weight: normal;
+}
+.heading h3{
+    font-size: normal;
+}
+
+/* Styling message wrapper*/
+.message-wrapper{
+    /* membuat sebuah border yang hanya berada di bawah elemetnya */
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.message{
+    /* Cursor berfungsi untuk mengubah jenis cursor ketika berada di tombol atau element aktif lainnya, ada 3 jenis cursor (text, pointer, default) */
+    cursor: pointer;
+    /* box-shadow sesuai dengan namanya memberi shadow sehingga element tersebut terlihat lebih nyata atau 3d
+        penggunaannya box-shadow: (horizontal) (vertical) (warna shadow); */
+    box-shadow: 0px 7px #1a7940;
+
+    background-color: #5dca88;
+    padding: 15px 40px 15px 40px;
+}
+/* membuat tombol menjadi memiliki animasi klik */
+.message:active{
+    box-shadow: none;
+    /* menggunakan position relative agar posisi element lainnya tidak ikut berubah */
+    position: relative;
+    /* top disini berfungsi sebagai animasi ketika tombol ditekan maka memberi kesan tenggelam */
+    top: 7px;
+}
