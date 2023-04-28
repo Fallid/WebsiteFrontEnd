@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modulus</title>
+    <title>Pemrograman Dasar</title>
 </head>
 <body>
     <header>
@@ -16,10 +16,24 @@
         <label for="check">
             <div id="container-header">
                 <i class="material-icons" id="btn">menu</i>
-                <a href="#" class="home">HOME</a>
+                <a href="C:/Latihan Ngoding/HTMLTutorial/Playground/MainMenuV2/Dashboard.html" class="home">HOME</a>
                 <a href="#" class="aboutus">ABOUT US</a>
-                <a href="https://infotech.umm.ac.id/" class="systems">OTHER SYSTEM <i class="material-icons" style="font-size: 28px;">expand_more</i></a>
-                <!-- <i class="fas fa-times" id=""></i> -->
+                <!-- <a class="systems" onclick="toggleDropdown(this)">
+                    OTHER SYSTEM 
+                    <i class="material-icons" style="font-size: 28px;">expand_more</i>
+                </a> -->
+                <ul class="other">
+                        <li class="systems">
+                            <a href="#">OTHER SYSTEMS <i class="material-icons" style="font-size: 28px;">expand_more</i></a>
+                            <ul class="dropdown" >
+                                <li><a href="https://infotech.umm.ac.id/simponia/">SIMPONIA</a></li>
+                                <li><a href="https://infotech.umm.ac.id/sevenman/index.php/schedule">SEVENMAN</a></li>
+                                <li><a href="https://infotech.umm.ac.id/simutu/">SIMUTU Lab</a></li>
+                                <li><a href="https://infotech.umm.ac.id/sirenta/">SIRENTA</a></li>
+                            </ul>
+                        </li>
+                </ul>
+                
             </div>
         </label>
         <div class="sidebar">
@@ -47,5 +61,274 @@
             </ul>
         </div>
     </header>
+    <div class="container">
+        <div class="content-box">
+            <h1>Content</h1>
+    
+            <div class="dropdown" onclick="toggleDropdown(this)">
+                <span>Modul 1</span>
+                <div class="dropdown-content">
+                <h3>Judul Materi Modul 1</h3>
+                    <p>Penjalasan Materi Modul 1 ....................................................................................................................................</p>
+                    <p> ................................................................................................................................................................................</p>
+                    <p> ................................................................................................................................................................................</p>
+                    <p> ............................................................................................................................................................</p>
+                <h3>Video Penjelasan: </h3>
+                    <video width="80%" height="80%" controls>
+                        <source src="C:\Latihan Ngoding\HTMLTutorial\Playground\Assets\Videos\Tes_Video_HTML.m4v" type="video/mp4">
+                    </video>
+                    <p>Atau masuk ke link: </p>
+                    <p>www.iniceritanyalinkvideo.go.id</p>
+                    <br/>
+    
+                        <div class="quiz-box">
+                            <h3>Quiz :</h3>
+                            <h4>1. Soal quiz pertama!</h4>
+                             <div class="inside-quiz-box">
+                             <div class="button" onclick="changeColor(this)">A. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">B. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">C. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">D. Jawaban</div>
+                             </div>
+                            <br/>
+                            <h4>2. Soal quiz Kedua?</h4>
+                             <div class="inside-quiz-box">
+                             <div class="button" onclick="changeColor(this)">A. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">B. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">C. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">D. Jawaban</div>
+                             </div>
+                            <br/>
+                            <div class="button-submit">Submit</div>
+                        </div>
+                </div>
+            </div>
+            
+    
+            <div class="dropdown" onclick="toggleDropdown(this)">
+                <span>Modul 2</span>
+                <div class="dropdown-content">
+                <h3>Judul Materi Modul 2</h3>
+                    <p>Penjalasan Materi Modul 2 ....................................................................................................................................</p>
+                    <p> ................................................................................................................................................................................</p>
+                    <p> ................................................................................................................................................................................</p>
+                    <p> ............................................................................................................................................................</p>
+                <h3>Video Penjelasan: </h3>
+                    <video width="80%" height="80%" controls>
+                        <source src="C:\Latihan Ngoding\HTMLTutorial\Playground\Assets\Videos\Tes_Video_HTML.m4v" type="video/mp4">
+                    </video>
+                    <p>Atau masuk ke link: </p>
+                    <p>www.iniceritanyalinkvideo.go.id</p>
+                    <br/>
+    
+                        <div class="quiz-box">
+                            <h3>Quiz :</h3>
+                            <h4>1. Soal quiz pertama!</h4>
+                             <div class="inside-quiz-box">
+                             <div class="button" onclick="changeColor(this)">A. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">B. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">C. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">D. Jawaban</div>
+                             </div>
+                            <br/>
+                            <h4>2. Soal quiz Kedua?</h4>
+                             <div class="inside-quiz-box">
+                             <div class="button" onclick="changeColor(this)">A. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">B. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">C. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">D. Jawaban</div>
+                             </div>
+                            <br/>
+                            <div class="button-submit">Submit</div>
+                        </div>
+                </div>
+            </div>
+    
+    
+            <div class="dropdown" onclick="toggleDropdown(this)">
+                <span>Modul 3</span>
+                <div class="dropdown-content">
+                <h3>Judul Materi Modul 3</h3>
+                    <p>Penjalasan Materi Modul 3 ....................................................................................................................................</p>
+                    <p> ................................................................................................................................................................................</p>
+                    <p> ................................................................................................................................................................................</p>
+                    <p> ............................................................................................................................................................</p>
+                <h3>Video Penjelasan: </h3>
+                    <video width="80%" height="80%" controls>
+                        <source src="C:\Latihan Ngoding\HTMLTutorial\Playground\Assets\Videos\Tes_Video_HTML.m4v" type="video/mp4">
+                    </video>
+                    <p>Atau masuk ke link: </p>
+                    <p>www.iniceritanyalinkvideo.go.id</p>
+                    <br/>
+    
+                        <div class="quiz-box">
+                            <h3>Quiz :</h3>
+                            <h4>1. Soal quiz pertama!</h4>
+                             <div class="inside-quiz-box">
+                             <div class="button" onclick="changeColor(this)">A. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">B. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">C. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">D. Jawaban</div>
+                             </div>
+                            <br/>
+                            <h4>2. Soal quiz Kedua?</h4>
+                             <div class="inside-quiz-box">
+                             <div class="button" onclick="changeColor(this)">A. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">B. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">C. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">D. Jawaban</div>
+                             </div>
+                            <br/>
+                            <div class="button-submit">Submit</div>
+                        </div>
+                </div>
+            </div>
+    
+    
+            <div class="dropdown" onclick="toggleDropdown(this)">
+                <span>Modul 4</span>
+                <div class="dropdown-content">
+                <h3>Judul Materi Modul 4</h3>
+                    <p>Penjalasan Materi Modul 4 ....................................................................................................................................</p>
+                    <p> ................................................................................................................................................................................</p>
+                    <p> ................................................................................................................................................................................</p>
+                    <p> ............................................................................................................................................................</p>
+                <h3>Video Penjelasan: </h3>
+                    <video width="80%" height="80%" controls>
+                        <source src="C:\Latihan Ngoding\HTMLTutorial\Playground\Assets\Videos\Tes_Video_HTML.m4v" type="video/mp4">
+                    </video>
+                    <p>Atau masuk ke link: </p>
+                    <p>www.iniceritanyalinkvideo.go.id</p>
+                    <br/>
+    
+                        <div class="quiz-box">
+                            <h3>Quiz :</h3>
+                            <h4>1. Soal quiz pertama!</h4>
+                             <div class="inside-quiz-box">
+                             <div class="button" onclick="changeColor(this)">A. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">B. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">C. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">D. Jawaban</div>
+                             </div>
+                            <br/>
+                            <h4>2. Soal quiz Kedua?</h4>
+                             <div class="inside-quiz-box">
+                             <div class="button" onclick="changeColor(this)">A. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">B. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">C. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">D. Jawaban</div>
+                             </div>
+                            <br/>
+                            <div class="button-submit">Submit</div>
+                        </div>
+                </div>
+            </div>
+    
+    
+            <div class="dropdown" onclick="toggleDropdown(this)">
+                <span>Modul 5</span>
+                <div class="dropdown-content">
+                <h3>Judul Materi Modul 5</h3>
+                    <p>Penjalasan Materi Modul 5 ....................................................................................................................................</p>
+                    <p> ................................................................................................................................................................................</p>
+                    <p> ................................................................................................................................................................................</p>
+                    <p> ............................................................................................................................................................</p>
+                <h3>Video Penjelasan: </h3>
+                    <video width="80%" height="80%" controls>
+                        <source src="C:\Latihan Ngoding\HTMLTutorial\Playground\Assets\Videos\Tes_Video_HTML.m4v" type="video/mp4">
+                    </video>
+                    <p>Atau masuk ke link: </p>
+                    <p>www.iniceritanyalinkvideo.go.id</p>
+                    <br/>
+    
+                        <div class="quiz-box">
+                            <h3>Quiz :</h3>
+                            <h4>1. Soal quiz pertama!</h4>
+                             <div class="inside-quiz-box">
+                             <div class="button" onclick="changeColor(this)">A. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">B. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">C. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">D. Jawaban</div>
+                             </div>
+                            <br/>
+                            <h4>2. Soal quiz Kedua?</h4>
+                             <div class="inside-quiz-box">
+                             <div class="button" onclick="changeColor(this)">A. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">B. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">C. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">D. Jawaban</div>
+                             </div>
+                            <br/>
+                            <div class="button-submit">Submit</div>
+                        </div>
+                </div>
+            </div>
+    
+    
+            <div class="dropdown" onclick="toggleDropdown(this)">
+                <span>Modul 6</span>
+                <div class="dropdown-content">
+                <h3>Judul Materi Modul 6</h3>
+                    <p>Penjalasan Materi Modul 6 ....................................................................................................................................</p>
+                    <p> ................................................................................................................................................................................</p>
+                    <p> ................................................................................................................................................................................</p>
+                    <p> ............................................................................................................................................................</p>
+                <h3>Video Penjelasan: </h3>
+                    <video width="80%" height="80%" controls>
+                        <source src="C:\Latihan Ngoding\HTMLTutorial\Playground\Assets\Videos\Tes_Video_HTML.m4v" type="video/mp4">
+                    </video>
+                    <p>Atau masuk ke link: </p>
+                    <p>www.iniceritanyalinkvideo.go.id</p>
+                    <br/>
+    
+                        <div class="quiz-box">
+                            <h3>Quiz :</h3>
+                            <h4>1. Soal quiz pertama!</h4>
+                             <div class="inside-quiz-box">
+                             <div class="button" onclick="changeColor(this)">A. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">B. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">C. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">D. Jawaban</div>
+                             </div>
+                            <br/>
+                            <h4>2. Soal quiz Kedua?</h4>
+                             <div class="inside-quiz-box">
+                             <div class="button" onclick="changeColor(this)">A. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">B. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">C. Jawaban</div>
+                             <div class="button" onclick="changeColor(this)">D. Jawaban</div>
+                             </div>
+                            <br/>
+                            <div class="button-submit">Submit</div>
+                        </div>
+                </div>
+            </div>
+    
+    
+            <div class="dropdown" onclick="toggleDropdown(this)">
+                <span>Final Quiz</span>
+                <div class="dropdown-content">
+                <h3>Final Quiz</h3>
+                    
+                </div>
+            </div>
+        </div>
+    
+        <script>
+            function toggleDropdown(dropdown) {
+                dropdown.classList.toggle('active');
+            }
+    
+            function changeColor(button) {
+                var buttons = document.getElementsByClassName('button');
+                for (var i = 0; i < buttons.length; i++) {
+                    buttons[i].classList.remove('selected');
+                }
+    
+                button.classList.add('selected');
+            }
+        </script>
+    </div>
+    
 </body>
 </html>
